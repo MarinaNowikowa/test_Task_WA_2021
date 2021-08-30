@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 5px 0;
+  color: #e2e2e2;
+  font-size: 18px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 520px;
+  min-height: 600px;
+  background: #161a2b;
+  text-align: center;
+  margin: 20px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+}
+
+.app-form {
+  margin: 32px 0px;
+}
+
+.input-read {
+  align-self: flex-start;
+  color: #e2e2e2;
+  margin-left: 55px;
+}
+
+.app-input {
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #5d0cff;
+  outline: none;
+  width: 320px;
+  background: transparent;
+  color: #fff;
+}
+
+.app-input::placeholder {
+  color: #e2e2e2;
+}
+
+.app-button {
+  padding: 16px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgba(93, 12, 255, 1) 0%,
+    rgba(155, 0, 250, 1) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.tag-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px auto;
+  color: #fff;
+  background: linear-gradient(
+    90deg,
+    rgba(93, 12, 255, 1) 0%,
+    rgba(155, 0, 250, 1) 100%
+  );
+  padding: 16px;
+  border-radius: 5px;
+  width: 90%;
+}
+
+.btn-delete.checked, .app-button.checked  {
+  opacity: 0.5;
+  cursor:auto
+}
+
+.tag-description {
+  width: 90%;
+  margin-right: 5px;
+  font-size: 15px;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.btn-delete {
+  background: red;
+  width: 25px;
+  height: 25px;
+  border-radius: 50% 50%;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+}
